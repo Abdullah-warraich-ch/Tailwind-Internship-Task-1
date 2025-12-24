@@ -1,0 +1,578 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/4d6aa9f137.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="flex flex-row justify-between w-full h-[5vw] items-center">
+      <div
+        class="flex flex-row justify-start basis-[10.833vw] h-[2.917vw] items-center"
+      >
+        <div
+          class="flex bg-[#A53DFF] h-[2.917vw] w-[2.917vw] items-center justify-center rounded-full"
+        >
+          <h1 class="text-[1.6vw] font-work font-semibold text-amber-50">B</h1>
+        </div>
+        <div>
+          <h1 class="text-[1.6vw] font-work font-semibold ml-2">Brooklyn</h1>
+        </div>
+      </div>
+      <div
+        class=" flex flex-row justify-between basis-[37.604vw] h-[2.5vw] text-[0.833vw] items-center font-work font-medium"
+      >
+        <div><a href="" class="hover:underline">Home</a></div>
+        <div><a href="" class="hover:underline">About</a></div>
+        <div><a href="" class="hover:underline">Process</a></div>
+        <div><a href="" class="hover:underline">Portfolio</a></div>
+        <div><a href="" class="hover:underline">Blog</a></div>
+        <div><a href="" class="hover:underline">Services</a></div>
+        <div class="bg-[#A53DFF] hover:bg-[#7b00e7] p-[0.8vw] rounded-md">
+          <a href="" class="text-white">Contact</a>
+        </div>
+      </div>
+    </div>
+    <!-- introduction -->
+    <div class="grid mt-[5vw] h-[33.125vw] grid-cols-2">
+      <div class="flex flex-col justify-between justify-self-start">
+        <!-- personal details -->
+        <div class="h-[17.5vw] w-[33.75vw] mt-10 grid grid-cols-1 gap-1">
+          <div>
+            <h1 class="font-work font-semibold text-[3.75vw] leading-[4.375vw]">
+              Hello, I’m Brooklyn Gilbert
+            </h1>
+          </div>
+          <div>
+            <p
+              class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+            >
+              I'm a Freelance UI/UX Designer and Developer based in London,
+              England. I strives to build immersive and beautiful web
+              applications through carefully crafted code and user-centric
+              design.
+            </p>
+          </div>
+          <div>
+            <button
+              class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-sm"
+            >
+              Say Hello!
+            </button>
+          </div>
+        </div>
+        <!-- Cards below personal details -->
+        <div class="w-[33.75vw] h-[5.521vw] justify-end grid grid-cols-3 gap-1">
+          <div class="grid grid-cols-1 bg-[#f1e2ff] justify-items-center">
+            <div class="self-end">
+              <h3 class="font-work font-semibold text-[1.667vw]">15 Y.</h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Experience
+              </p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 justify-items-center bg-[#f1e2ff]">
+            <div class="self-end">
+              <h3 class="font-work font-semibold text-[1.667vw]">250+</h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Project Completed
+              </p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 justify-items-center bg-[#f1e2ff]">
+            <div class="self-end">
+              <h3 class="font-work font-semibold text-[1.667vw]">58</h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Happy Client
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div
+        class="w-[27.917vw] h-[33.125vw] justify-self-end rounded-xl shadow-1 bg-[#f1e2ff]"
+      >
+        <!-- <img
+          src="/src/img/model.png"
+          alt=""
+          srcset=""
+          class="object-cover w-full h-full"
+        /> -->
+      </div>
+    </div>
+
+    <!-- About -->
+    <div
+      class="h-[37.92vw] shadow-2xl mt-[10vw] grid grid-cols-2 justify-items-center relative z-10 bg-white"
+    >
+      <!-- About Model -->
+      <div
+        class="relative grid w-[26.25vw] h-[27.29vw] bg-[#f1e2ff] text-[0.9375vw] text-[#A53DFF] rounded-sm self-center grid-cols-1 justify-items-center"
+      >
+        <div
+          class="absolute bottom-0 translate-y-1/2 h-[3.75vw] w-[13.75vw] bg-white rounded-sm shadow-2xl self-end flex items-center justify-center"
+        >
+          <div class="h-[2.5vw] w-[2.5vw] flex justify-center items-center">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="h-[2.5vw] w-[2.5vw] flex justify-center items-center">
+            <i class="fa-brands fa-behance"></i>
+          </div>
+          <div
+            class="h-[2.5vw] w-[2.5vw] flex justify-center items-center bg-[#A53DFF] text-white rounded-sm"
+          >
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div class="h-[2.5vw] w-[2.5vw] flex justify-center items-center">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Right -->
+      <div class="h-[18.13vw] w-[27.92vw] self-center grid grid-cols-1 gap-4">
+        <div>
+          <h1 class="font-work font-semibold text-[1.98vw] leading-[2.375vw]">
+            I am Professional User Experience Designer
+          </h1>
+        </div>
+        <div>
+          <p
+            class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+          >
+            I design and develop services for customers specializing creating
+            stylish, modern websites, web services and online stores. My passion
+            is to design digital user experiences.
+          </p>
+          <br />
+          <p
+            class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+          >
+            I design and develop services for customers specializing creating
+            stylish, modern websites, web services.
+          </p>
+        </div>
+        <div class="flex">
+          <div class="mt-2">
+            <button
+              class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-sm"
+            >
+              My Project
+            </button>
+          </div>
+          <div class="ml-5 mt-2">
+            <button
+              class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-sm"
+            >
+              <i class="fa-solid fa-download mr-2"></i>Download CV
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Work Process -->
+    <section
+      class="-mt-[5vw] bg-[#F0F1F3] min-w-full h-[53.46vw] -mx-[15.6vw] flex justify-center items-center"
+    >
+      <div class="h-[31.25vw] grid grid-cols-2 mt-30 ml-[15.6vw] mr-[15.6vw]">
+        <!-- details -->
+        <div class="self-center pr-20">
+          <div>
+            <h1 class="font-work font-semibold text-[1.98vw] leading-[2.375vw]">
+              Work Process
+            </h1>
+          </div>
+          <div class="mt-5">
+            <p
+              class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+            >
+              I design and develop services for customers specializing creating
+              stylish, modern websites, web services and online stores. My
+              passion is to design digital user experiences.
+            </p>
+            <br />
+            <p
+              class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+            >
+              I design and develop services for customers specializing creating
+              stylish, modern websites, web services.
+            </p>
+          </div>
+        </div>
+
+        <!-- cards -->
+        <div class="grid grid-cols-2 grid-rows-2 gap-4">
+          <!-- card -->
+          <div
+            class="bg-white w-[16.25vw] h-[14.38vw] pl-5 shadow-xl rounded-md flex justify-evenly flex-col"
+          >
+            <div class=" ">
+              <i
+                class="fa-solid fa-book text-white p-[1.04vw] bg-[#A53DFF] rounded-sm text-[1.25vw]"
+              ></i>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1.667vw]">
+                1. Research
+              </h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                purus arcu.
+              </p>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+          <div
+            class="bg-white w-[16.25vw] h-[14.38vw] pl-5 rounded-md flex justify-evenly flex-col"
+          >
+            <div class=" ">
+              <i
+                class="fa-solid fa-chart-area text-[#A53DFF] p-[1.04vw] text-[1.25vw] bg-[#EDD8FF] rounded-sm"
+              ></i>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1.667vw]">2. Analyze</h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                purus arcu.
+              </p>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+          <div
+            class="bg-white w-[16.25vw] h-[14.38vw] pl-5 rounded-md flex justify-evenly flex-col"
+          >
+            <div class=" ">
+              <i
+                class="fa-solid fa-compass-drafting text-[#A53DFF] text-[1.25vw] p-[1.04vw] bg-[#EDD8FF] rounded-sm"
+              ></i>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1.667vw]">3. Design</h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                purus arcu.
+              </p>
+            </div>
+          </div>
+
+          <!-- card 4 -->
+          <div
+            class="bg-white w-[16.25vw] h-[14.38vw] pl-5 rounded-md flex justify-evenly flex-col"
+          >
+            <div class=" ">
+              <i
+                class="fa-solid fa-computer text-[#A53DFF] p-[1.04vw] text-[1.25vw] bg-[#EDD8FF] rounded-sm"
+              ></i>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1.667vw]">4. Launch</h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                purus arcu.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <div class="h-[76.67vw] flex flex-col justify-evenly">
+      <!-- p-Header -->
+      <div class="h-[6.67vw] flex flex-col items-center pr-[20vw] pl-[20vw]">
+        <div>
+          <h1 class="font-work font-semibold text-[1.98vw] leading-[2.375vw]">
+            Portfolio
+          </h1>
+        </div>
+        <div class="mt-5">
+          <p
+            class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration.
+          </p>
+        </div>
+      </div>
+
+      <!-- p-cardss  -->
+      <div class="h-[52.83vw] grid grid-cols-3 gap-8 items-center pt-2 pb-2">
+        <!-- p-card-1 -->
+        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
+          <div class="bg-gray-400 h-1/2"></div>
+          <div class="flex flex-col gap-2 p-3">
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                UI/UX Design
+              </p>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1vw] leading-5">
+                Product Admin Dashboard
+              </h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+            </div>
+            <div>
+              <button
+                class="pt-[0.5vw] pb-[0.5vw] pr-[1vw] pl-[1vw] border-1 border-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] rounded-sm"
+              >
+                <p class="text-[#A53DFF]">
+                  Download CV
+                  <i class="fa-solid fa-arrow-right-long mr-2"></i>
+                </p>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- p-card-2 -->
+        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
+          <div class="bg-gray-400 h-1/2"></div>
+          <div class="flex flex-col gap-2 p-3">
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                UI/UX Design
+              </p>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1vw] leading-5">
+                Product Admin Dashboard
+              </h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+            </div>
+            <div>
+              <button
+                class="pt-[0.5vw] pb-[0.5vw] pr-[1vw] pl-[1vw] border-1 border-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] rounded-sm"
+              >
+                <p class="text-[#A53DFF]">
+                  Download CV
+                  <i class="fa-solid fa-arrow-right-long mr-2"></i>
+                </p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- p-card-3 -->
+        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
+          <div class="bg-gray-400 h-1/2"></div>
+          <div class="flex flex-col gap-2 p-3">
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                UI/UX Design
+              </p>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1vw] leading-5">
+                Product Admin Dashboard
+              </h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+            </div>
+            <div>
+              <button
+                class="pt-[0.5vw] pb-[0.5vw] pr-[1vw] pl-[1vw] border-1 border-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] rounded-sm"
+              >
+                <p class="text-[#A53DFF]">
+                  Download CV
+                  <i class="fa-solid fa-arrow-right-long mr-2"></i>
+                </p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- p-card-4 -->
+        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
+          <div class="bg-gray-400 h-1/2"></div>
+          <div class="flex flex-col gap-2 p-3">
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                UI/UX Design
+              </p>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1vw] leading-5">
+                Product Admin Dashboard
+              </h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+            </div>
+            <div>
+              <button
+                class="pt-[0.5vw] pb-[0.5vw] pr-[1vw] pl-[1vw] border-1 border-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] rounded-sm"
+              >
+                <p class="text-[#A53DFF]">
+                  Download CV
+                  <i class="fa-solid fa-arrow-right-long mr-2"></i>
+                </p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- p-card-5 -->
+        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
+          <div class="bg-gray-400 h-1/2"></div>
+          <div class="flex flex-col gap-2 p-3">
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                UI/UX Design
+              </p>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1vw] leading-5">
+                Product Admin Dashboard
+              </h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+            </div>
+            <div>
+              <button
+                class="pt-[0.5vw] pb-[0.5vw] pr-[1vw] pl-[1vw] border-1 border-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] rounded-sm"
+              >
+                <p class="text-[#A53DFF]">
+                  Download CV
+                  <i class="fa-solid fa-arrow-right-long mr-2"></i>
+                </p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- p-card-6 -->
+        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
+          <div class="bg-gray-400 h-1/2"></div>
+          <div class="flex flex-col gap-2 p-3">
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                UI/UX Design
+              </p>
+            </div>
+            <div>
+              <h3 class="font-work font-semibold text-[1vw] leading-5">
+                Product Admin Dashboard
+              </h3>
+            </div>
+            <div>
+              <p
+                class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
+              >
+                Vivamus eleifend convallis ante, non pharetra libero molestie
+                laoreet. Donec id imperdiet lacus.
+              </p>
+            </div>
+            <div>
+              <button
+                class="pt-[0.5vw] pb-[0.5vw] pr-[1vw] pl-[1vw] border-1 border-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] rounded-sm"
+              >
+                <p class="text-[#A53DFF]">
+                  Download CV
+                  <i class="fa-solid fa-arrow-right-long mr-2"></i>
+                </p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- p-button -->
+      <div class="h-[4.67vw]">
+        <div class="flex flex-col items-center">
+          <button
+            class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-sm"
+          >
+            Say Hello!
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
