@@ -17,9 +17,10 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="p-0">
     <!-- Header -->
     <div class="flex flex-row justify-between w-full h-[5vw] items-center">
+      <!-- Logo -->
       <div
         class="flex flex-row justify-start basis-[10.833vw] h-[2.917vw] items-center"
       >
@@ -32,8 +33,14 @@
           <h1 class="text-[1.6vw] font-work font-semibold ml-2">Brooklyn</h1>
         </div>
       </div>
+      <!-- Menubar -->
+      <!-- Hamburger -->
+      <div class="flex justify-end md:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <!-- menu_links -->
       <div
-        class=" flex flex-row justify-between basis-[37.604vw] h-[2.5vw] text-[0.833vw] items-center font-work font-medium"
+        class="hidden md:flex flex-row justify-between basis-[37.604vw] h-[2.5vw] text-[0.833vw] items-center font-work font-medium"
       >
         <div><a href="" class="hover:underline">Home</a></div>
         <div><a href="" class="hover:underline">About</a></div>
@@ -46,11 +53,16 @@
         </div>
       </div>
     </div>
+
     <!-- introduction -->
-    <div class="grid mt-[5vw] h-[33.125vw] grid-cols-2">
-      <div class="flex flex-col justify-between justify-self-start">
+    <div
+      class="grid mt-[5vw] h-[63.125vw] md:h-[33.125vw] grid-cols-1 md:grid-cols-2"
+    >
+      <div
+        class="flex flex-col justify-evenly md:justify-between justify-self-center md:justify-self-start order-2 md:order-1"
+      >
         <!-- personal details -->
-        <div class="h-[17.5vw] w-[33.75vw] mt-10 grid grid-cols-1 gap-1">
+        <div class="h-[17.5vw] w-[33.75vw] md:mt-10 grid grid-cols-1 gap-1">
           <div>
             <h1 class="font-work font-semibold text-[3.75vw] leading-[4.375vw]">
               Hello, I’m Brooklyn Gilbert
@@ -66,7 +78,7 @@
               design.
             </p>
           </div>
-          <div>
+          <div class="justify-self-center md:justify-self-start">
             <button
               class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-sm"
             >
@@ -116,7 +128,7 @@
       </div>
       <!-- Modal -->
       <div
-        class="w-[27.917vw] h-[33.125vw] justify-self-end rounded-xl shadow-1 bg-[#f1e2ff]"
+        class="w-[27.917vw] h-[33.125vw] justify-self-center md:justify-self-end rounded-xl shadow-1 bg-[#f1e2ff] order-1 md:order-1"
       >
         <!-- <img
           src="/src/img/model.png"
@@ -156,7 +168,9 @@
       </div>
 
       <!-- About Right -->
-      <div class="h-[18.13vw] w-[27.92vw] self-center grid grid-cols-1 gap-4">
+      <div
+        class="h-[18.13vw] w-[27.92vw] self-center grid grid-cols-1 md:gap-4"
+      >
         <div>
           <h1 class="font-work font-semibold text-[1.98vw] leading-[2.375vw]">
             I am Professional User Experience Designer
@@ -170,7 +184,7 @@
             stylish, modern websites, web services and online stores. My passion
             is to design digital user experiences.
           </p>
-          <br />
+          <!-- <br /> -->
           <p
             class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
           >
@@ -181,14 +195,14 @@
         <div class="flex">
           <div class="mt-2">
             <button
-              class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-sm"
+              class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-xs"
             >
               My Project
             </button>
           </div>
           <div class="ml-5 mt-2">
             <button
-              class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-sm"
+              class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-xs"
             >
               <i class="fa-solid fa-download mr-2"></i>Download CV
             </button>
@@ -198,17 +212,21 @@
     </div>
     <!-- Work Process -->
     <section
-      class="-mt-[5vw] bg-[#F0F1F3] min-w-full h-[53.46vw] -mx-[15.6vw] flex justify-center items-center"
+      class="-mt-[5vw] bg-[#F0F1F3]  min-w-full  h-[53.46vw] -mx-[15.6vw] flex justify-center items-center"
     >
-      <div class="h-[31.25vw] grid grid-cols-2 mt-30 ml-[15.6vw] mr-[15.6vw]">
+      <div
+        class="h-[31.25vw] grid mt-10 grid-cols-2 md:mt-30 ml-[15.6vw] mr-[15.6vw]"
+      >
         <!-- details -->
-        <div class="self-center pr-20">
+        <div
+          class="flex flex-col justify-center justify-items-center self-center md:pr-20 m-5"
+        >
           <div>
             <h1 class="font-work font-semibold text-[1.98vw] leading-[2.375vw]">
               Work Process
             </h1>
           </div>
-          <div class="mt-5">
+          <div class="md:mt-5">
             <p
               class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
             >
@@ -216,7 +234,7 @@
               stylish, modern websites, web services and online stores. My
               passion is to design digital user experiences.
             </p>
-            <br />
+
             <p
               class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
             >
@@ -227,10 +245,10 @@
         </div>
 
         <!-- cards -->
-        <div class="grid grid-cols-2 grid-rows-2 gap-4">
+        <div class="grid grid-cols-2 grid-rows-2 md:gap-4">
           <!-- card -->
           <div
-            class="bg-white w-[16.25vw] h-[14.38vw] pl-5 shadow-xl rounded-md flex justify-evenly flex-col"
+            class="bg-white w-[16.25vw] h-[14.38vw] p-1 md:pl-5 shadow-xl rounded-md flex justify-evenly flex-col"
           >
             <div class=" ">
               <i
@@ -254,7 +272,7 @@
 
           <!-- card 2 -->
           <div
-            class="bg-white w-[16.25vw] h-[14.38vw] pl-5 rounded-md flex justify-evenly flex-col"
+            class="bg-white w-[16.25vw] h-[14.38vw] p-1 md:pl-5 rounded-md flex justify-evenly flex-col"
           >
             <div class=" ">
               <i
@@ -276,7 +294,7 @@
 
           <!-- card 3 -->
           <div
-            class="bg-white w-[16.25vw] h-[14.38vw] pl-5 rounded-md flex justify-evenly flex-col"
+            class="bg-white w-[16.25vw] h-[14.38vw] p-1 md:pl-5 rounded-md flex justify-evenly flex-col"
           >
             <div class=" ">
               <i
@@ -298,7 +316,7 @@
 
           <!-- card 4 -->
           <div
-            class="bg-white w-[16.25vw] h-[14.38vw] pl-5 rounded-md flex justify-evenly flex-col"
+            class="bg-white w-[16.25vw] h-[14.38vw] p-1 md:pl-5 rounded-md flex justify-evenly flex-col"
           >
             <div class=" ">
               <i
@@ -322,7 +340,9 @@
     </section>
 
     <!-- Portfolio -->
-    <div class="h-[76.67vw] flex flex-col justify-evenly">
+    <div
+      class="md:h-[76.67vw] h-[100vw] flex flex-col justify-evenly pt-10 gap-1"
+    >
       <!-- p-Header -->
       <div class="h-[6.67vw] flex flex-col items-center pr-[20vw] pl-[20vw]">
         <div>
@@ -330,7 +350,7 @@
             Portfolio
           </h1>
         </div>
-        <div class="mt-5">
+        <div class="md:mt-5">
           <p
             class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
           >
@@ -341,11 +361,17 @@
       </div>
 
       <!-- p-cardss  -->
-      <div class="h-[52.83vw] grid grid-cols-3 gap-8 items-center pt-2 pb-2">
+      <div
+        class="md:h-[52.83vw] h-auto grid grid-cols-2 md:grid-cols-3 md:gap-8 gap-2 justify-items-center pt-2 pb-2"
+      >
         <!-- p-card-1 -->
-        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
-          <div class="bg-gray-400 h-1/2"></div>
-          <div class="flex flex-col gap-2 p-3">
+        <div
+          class="md:h-[24.79vw] h-[27.79vw] rounded-md w-[22.08vw] shadow-2xl"
+        >
+          <div class="bg-gray-400 h-1/2 rounded-tl-md rounded-tr-md"></div>
+          <div
+            class="flex flex-col md:gap-2 md:p-3 justify-around m-2 gap-0.5 md:m-0 items-center"
+          >
             <div>
               <p
                 class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
@@ -354,7 +380,7 @@
               </p>
             </div>
             <div>
-              <h3 class="font-work font-semibold text-[1vw] leading-5">
+              <h3 class="font-work font-semibold text-[1vw] md:leading-5">
                 Product Admin Dashboard
               </h3>
             </div>
@@ -379,9 +405,13 @@
           </div>
         </div>
         <!-- p-card-2 -->
-        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
-          <div class="bg-gray-400 h-1/2"></div>
-          <div class="flex flex-col gap-2 p-3">
+        <div
+          class="md:h-[24.79vw] h-[27.79vw] rounded-md w-[22.08vw] shadow-2xl"
+        >
+          <div class="bg-gray-400 h-1/2 rounded-tl-md rounded-tr-md"></div>
+          <div
+            class="flex flex-col md:gap-2 md:p-3 justify-around m-2 gap-0.5 md:m-0 items-center"
+          >
             <div>
               <p
                 class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
@@ -390,7 +420,7 @@
               </p>
             </div>
             <div>
-              <h3 class="font-work font-semibold text-[1vw] leading-5">
+              <h3 class="font-work font-semibold text-[1vw] md:leading-5">
                 Product Admin Dashboard
               </h3>
             </div>
@@ -416,9 +446,13 @@
         </div>
 
         <!-- p-card-3 -->
-        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
-          <div class="bg-gray-400 h-1/2"></div>
-          <div class="flex flex-col gap-2 p-3">
+        <div
+          class="md:h-[24.79vw] h-[27.79vw] rounded-md w-[22.08vw] shadow-2xl"
+        >
+          <div class="bg-gray-400 h-1/2 rounded-tl-md rounded-tr-md"></div>
+          <div
+            class="flex flex-col md:gap-2 md:p-3 justify-around m-2 gap-0.5 md:m-0 items-center"
+          >
             <div>
               <p
                 class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
@@ -427,7 +461,7 @@
               </p>
             </div>
             <div>
-              <h3 class="font-work font-semibold text-[1vw] leading-5">
+              <h3 class="font-work font-semibold text-[1vw] md:leading-5">
                 Product Admin Dashboard
               </h3>
             </div>
@@ -453,9 +487,13 @@
         </div>
 
         <!-- p-card-4 -->
-        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
-          <div class="bg-gray-400 h-1/2"></div>
-          <div class="flex flex-col gap-2 p-3">
+        <div
+          class="md:h-[24.79vw] h-[27.79vw] rounded-md w-[22.08vw] shadow-2xl"
+        >
+          <div class="bg-gray-400 h-1/2 rounded-tl-md rounded-tr-md"></div>
+          <div
+            class="flex flex-col md:gap-2 md:p-3 justify-around m-2 gap-0.5 md:m-0 items-center"
+          >
             <div>
               <p
                 class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
@@ -464,7 +502,7 @@
               </p>
             </div>
             <div>
-              <h3 class="font-work font-semibold text-[1vw] leading-5">
+              <h3 class="font-work font-semibold text-[1vw] md:leading-5">
                 Product Admin Dashboard
               </h3>
             </div>
@@ -490,9 +528,13 @@
         </div>
 
         <!-- p-card-5 -->
-        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
-          <div class="bg-gray-400 h-1/2"></div>
-          <div class="flex flex-col gap-2 p-3">
+        <div
+          class="md:h-[24.79vw] h-[27.79vw] rounded-md w-[22.08vw] shadow-2xl"
+        >
+          <div class="bg-gray-400 h-1/2 rounded-tl-md rounded-tr-md"></div>
+          <div
+            class="flex flex-col md:gap-2 md:p-3 justify-around m-2 gap-0.5 md:m-0 items-center"
+          >
             <div>
               <p
                 class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
@@ -501,7 +543,7 @@
               </p>
             </div>
             <div>
-              <h3 class="font-work font-semibold text-[1vw] leading-5">
+              <h3 class="font-work font-semibold text-[1vw] md:leading-5">
                 Product Admin Dashboard
               </h3>
             </div>
@@ -527,9 +569,13 @@
         </div>
 
         <!-- p-card-6 -->
-        <div class="h-[24.79vw] rounded-md w-[22.08vw] shadow-2xl">
-          <div class="bg-gray-400 h-1/2"></div>
-          <div class="flex flex-col gap-2 p-3">
+        <div
+          class="md:h-[24.79vw] h-[27.79vw] rounded-md w-[22.08vw] shadow-2xl"
+        >
+          <div class="bg-gray-400 h-1/2 rounded-tl-md rounded-tr-md"></div>
+          <div
+            class="flex flex-col md:gap-2 md:p-3 justify-around m-2 gap-0.5 md:m-0 items-center"
+          >
             <div>
               <p
                 class="font-work font-normal text-[#556070] text-[0.938vw] leading-[1.25]"
@@ -538,7 +584,7 @@
               </p>
             </div>
             <div>
-              <h3 class="font-work font-semibold text-[1vw] leading-5">
+              <h3 class="font-work font-semibold text-[1vw] md:leading-5">
                 Product Admin Dashboard
               </h3>
             </div>
@@ -564,7 +610,7 @@
         </div>
       </div>
       <!-- p-button -->
-      <div class="h-[4.67vw]">
+      <div class="h-[4.67vw] m-5">
         <div class="flex flex-col items-center">
           <button
             class="pt-[0.5vw] pb-[0.5vw] pr-[0.8vw] pl-[0.8vw] bg-[#A53DFF] font-work font-normal text-[0.833vw] leading-[1.25] text-white rounded-sm"
